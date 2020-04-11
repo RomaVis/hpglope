@@ -1,0 +1,35 @@
+#
+# Colorful rendering with black background and "synthwave" palette (https://www.color-hex.com/color-palette/57266).
+#
+
+# Plotter working area (simulated paper size), WxH in mm
+paper: [297, 210]
+# If set, we'll remove specified amount along edges from the image (top, left, bottom, right)
+crop: [25, 10, 5, 15]
+# DPI (not useful for all image formats)
+dpi: 400
+# Background color
+background_color: "#000000"
+# Pen properties
+pens:
+  '1':
+    color: '#00FA9A'
+    line_width: 0.3
+  '2':
+    color: "#1E90FF"
+    line_width: 0.75
+  '3':
+    color: "#7B68EE"
+    line_width: 0.75
+  '4':
+    color: "#F5F5DC"
+    line_width: 0.75
+  '5':
+    color: "#DB7093"
+    line_width: 0.75
+# Text rendering options
+text:
+  # Possible options: "hershey:*" or "stick_font". For available Hershey fonts, see fonts/data directory.
+  font: "hershey:rowmans"
+  line_width: 0.5
+  color: "#EB9605"

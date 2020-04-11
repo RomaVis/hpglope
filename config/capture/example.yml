@@ -1,0 +1,16 @@
+# Image file type and name
+img:
+  format: png
+  filename: "waveform_%Y%m%d_%H%M%S.png"
+
+# If set, we'll also save raw HPGL dump
+dump_filename: "raw_%Y%m%d_%H%M%S.hp"
+
+# Serial port configuration
+port:
+  name: "/dev/ttyUSB0"
+  baud: 38400
+  parity: "None"
+  rtscts: true
+  dsrdtr: true
+  xonxoff: false

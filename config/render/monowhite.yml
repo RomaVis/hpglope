@@ -1,0 +1,30 @@
+#
+# Monochrome rendering with white background, print-ready
+#
+
+paper: [297, 210]
+# No crop
+#crop: [0, 0, 0, 0]
+dpi: 400
+background_color: '#FFFFFF'
+pens:
+  '1':
+    color: '#000000'
+    line_width: 0.3
+  '2':
+    color: '#000000'
+    line_width: 0.75
+  '3':
+    color: '#000000'
+    line_width: 0.75
+  '4':
+    color: '#000000'
+    line_width: 0.75
+  '5':
+    color: '#000000'
+    line_width: 0.75
+# Text rendering options
+text:
+  # Possible options: "hershey:*" or "stick_font". For available Hershey fonts, see fonts/data directory.
+  font: "hershey:rowmans"
+  line_width: 0.5
