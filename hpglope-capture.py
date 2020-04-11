@@ -8,7 +8,7 @@ import os
 from typing import Union
 from hpglope.parser import HpglStreamParser, RenderImageFormat, RenderConfig
 
-logger = logging.getLogger('combiscope-capture')
+logger = logging.getLogger('hpglope-capture')
 
 
 class CaptureConfig:

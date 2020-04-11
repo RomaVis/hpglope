@@ -1,0 +1,3 @@
+pycairo
+pyyaml
+pyserial
