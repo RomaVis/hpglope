@@ -22,10 +22,10 @@ pens:
     color: "#7B68EE"
     line_width: 0.75
   '4':
-    color: "#F5F5DC"
+    color: "#DB7093"
     line_width: 0.75
   '5':
-    color: "#DB7093"
+    color: "#F5F5DC"
     line_width: 0.75
 # Text rendering options
 text:
